@@ -1,0 +1,45 @@
+.event-item {
+    width: 90%;
+    list-style-type: none;
+    margin-right: 24px;
+  }
+  @media screen and (min-width: 768px) {
+    .event-item {
+      width: 45%;
+    }
+  }
+  .event-button{
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    outline: none;
+    cursor: pointer;
+  }
+  .event-image {
+    width: 250px;
+    height:200px;
+    border: transparent;
+    border-radius: 8px;
+    
+  }
+  .active {
+    border: 2px solid #2dd4bf;
+    border-radius: 10px;
+  }
+  .name {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin: 0px;
+  }
+  .location {
+    color: #f8fafc;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  
